@@ -17,11 +17,12 @@ root: ~/
 
 # Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
 # tmux_command: byobu
+# 2fbd,233x61,0,0{136x61,0,0,20,96x61,137,0,22}
+# 22f8,233x61,0,0{136x61,0,0,0,96x61,137,0[96x30,137,0,1,96x30,137,31,2]}
 
 windows:
   - default:
-      layout: 22f8,233x61,0,0{136x61,0,0,0,96x61,137,0[96x30,137,0,1,96x30,137,31,2]}
+      layout: 2fbd,233x61,0,0{136x61,0,0,20,96x61,137,0,22}
       panes:
         - vim
-        - mc
         - clear

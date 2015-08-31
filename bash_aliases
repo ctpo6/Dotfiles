@@ -23,3 +23,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 alias gvimr="gvim --remote"
 
+#alias mc='EDITOR=atom mc'
+
+alias ctagspp='ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .'
+

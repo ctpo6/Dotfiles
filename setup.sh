@@ -10,12 +10,12 @@ if [ -f ~/.bash_aliases ]; then
 fi
 ln -sf $(pwd)/bashrc ~/.bashrc
 
-if [ -f ~/.tmux.conf ]; then
-	rm -f ~/.tmux.conf
-fi
-ln -s $(pwd)/tmux.conf ~/.tmux.conf
+#if [ -f ~/.tmux.conf ]; then
+#	rm -f ~/.tmux.conf
+#fi
+#ln -s $(pwd)/tmux.conf ~/.tmux.conf
 
-if [ -d ~/.tmuxinator ]; then
-	rm -rf ~/.tmuxinator
-fi
-ln -s $(pwd)/tmuxinator ~/.tmuxinator
+#if [ -d ~/.tmuxinator ]; then
+#	rm -rf ~/.tmuxinator
+#fi
+#ln -s $(pwd)/tmuxinator ~/.tmuxinator

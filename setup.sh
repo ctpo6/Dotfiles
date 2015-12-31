@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
+cp -f ~/.profile ~/.profile.old
+ln -sf $(pwd)/profile ~/.profile
 
 if [ -f ~/.bash_aliases ]; then
 	cp -f ~/.bash_aliases ~/.bash_aliases.old
 fi
 ln -sf $(pwd)/bash_aliases ~/.bash_aliases
 
-if [ -f ~/.bash_aliases ]; then
-	cp -f ~/.bashrc ~/.bashrc.old
-fi
+cp -f ~/.bashrc ~/.bashrc.old
 ln -sf $(pwd)/bashrc ~/.bashrc
 
 #if [ -f ~/.tmux.conf ]; then

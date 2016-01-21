@@ -24,5 +24,6 @@ fi
 # if Go lang installed
 if [ -d "$HOME/bin/go" ]; then
 	export GOROOT="$HOME/bin/go"
-	PATH="$PATH;$GOROOT/bin"
+	PATH="$PATH:$GOROOT/bin"
+	export GOPATH="$HOME/work/go"
 fi

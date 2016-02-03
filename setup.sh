@@ -10,6 +10,11 @@ ln -sf $(pwd)/bash_aliases ~/.bash_aliases
 cp -f ~/.bashrc ~/.bashrc.old
 ln -sf $(pwd)/bashrc ~/.bashrc
 
+if [ -f ~/.zshrc ]; then
+	cp -f ~/.zshrc ~/.zshrc.old
+fi
+ln -sf $(pwd)/zshrc ~/.zshrc
+
 if [ -f ~/.tmux.conf ]; then
 	rm -f ~/.tmux.conf
 fi

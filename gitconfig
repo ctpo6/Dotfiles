@@ -1,0 +1,11 @@
+[user]
+	email = yuri.epstein@gmail.com
+	name = Yuri Epstein
+[push]
+	default = simple
+
+[credential "https://github.com"]
+    username=ctpo6
+
+[credential]
+	helper = store

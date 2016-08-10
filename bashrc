@@ -94,4 +94,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
 #export MC_SKIN=$HOME/Dotfiles/mc-solarized.ini

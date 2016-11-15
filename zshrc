@@ -53,10 +53,10 @@ plugins=(colored-man-pages colorize git history-substring-search)
 
 # User configuration
 
-export PATH="/home/strawb/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+export PATH="/home/yuri/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-export TERM="xterm-256color"
+[[ $TMUX = "" ]] && export TERM="xterm-256color"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -85,5 +85,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export MC_SKIN=$HOME/Dotfiles/mc-solarized.ini
+#export MC_SKIN=$HOME/Dotfiles/mc-solarized.ini
 

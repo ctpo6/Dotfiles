@@ -20,7 +20,7 @@ if [ -f ~/.tmux.conf ]; then
 fi
 ln -s $(pwd)/tmux.conf ~/.tmux.conf
 
-if [ -d ~/.tmuxinator ]; then
-	rm -rf ~/.tmuxinator
-fi
-ln -s $(pwd)/tmuxinator ~/.tmuxinator
+#if [ -d ~/.tmuxinator ]; then
+#	rm -rf ~/.tmuxinator
+#fi
+#ln -s $(pwd)/tmuxinator ~/.tmuxinator

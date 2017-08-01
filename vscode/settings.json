@@ -1,0 +1,25 @@
+{
+  // Controls if the editor should allow to move selections via drag and drop.
+  "editor.dragAndDrop": false,
+
+  // Controls the font family.
+  "editor.fontFamily": "'PragmataPro Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+
+  // Controls the font size in pixels.
+  "editor.fontSize": 18,
+
+  // Controls if the minimap is shown
+  "editor.minimap.enabled": false,
+
+  // Columns at which to show vertical rulers
+  "editor.rulers": [80],
+
+  // Controls if the editor will scroll beyond the last line
+  "editor.scrollBeyondLastLine": false,
+
+  "files.trimTrailingWhitespace": true,
+
+  "terminal.integrated.fontSize": 18,
+
+  "window.zoomLevel": 0,
+}
